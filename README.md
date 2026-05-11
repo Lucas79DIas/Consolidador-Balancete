@@ -15,7 +15,7 @@ Uma aplicação web para consolidação e análise de balancetes contábeis.
 ## 📋 Pré-requisitos
 
 - Node.js 18+ 
-- pnpm (recomendado) ou npm
+- npm
 
 ## 🛠️ Instalação
 
@@ -27,14 +27,14 @@ cd balancete-consolidador
 
 2. Instale as dependências:
 ```bash
-pnpm install
+npm install
 ```
 
 ## 🚀 Desenvolvimento
 
 Inicie o servidor de desenvolvimento:
 ```bash
-pnpm dev
+npm run dev
 ```
 
 A aplicação estará disponível em `http://localhost:3000`
@@ -43,7 +43,7 @@ A aplicação estará disponível em `http://localhost:3000`
 
 Para produção:
 ```bash
-pnpm build
+npm run build
 ```
 
 ## 📦 Deploy no Vercel
@@ -56,17 +56,17 @@ pnpm build
 
 ### Configurações de Deploy
 
-- **Build Command**: `pnpm build`
+- **Build Command**: `npm run build`
 - **Output Directory**: `dist`
-- **Install Command**: `pnpm install`
+- **Install Command**: `npm install`
 
 ## 🔧 Scripts Disponíveis
 
-- `pnpm dev` - Inicia servidor de desenvolvimento
-- `pnpm build` - Build para produção
-- `pnpm preview` - Preview do build de produção
-- `pnpm check` - Verificação de tipos TypeScript
-- `pnpm format` - Formatação do código
+- `npm run dev` - Inicia servidor de desenvolvimento
+- `npm run build` - Build para produção
+- `npm run preview` - Preview do build de produção
+- `npm run check` - Verificação de tipos TypeScript
+- `npm run format` - Formatação do código
 
 ## 📝 Estrutura do Projeto
 
